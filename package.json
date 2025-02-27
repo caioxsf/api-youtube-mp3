@@ -1,0 +1,22 @@
+{
+  "name": "teste-api-yt-mp3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "caio nobile",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "youtube-dl-exec": "^3.0.16",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
