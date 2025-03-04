@@ -10,6 +10,8 @@ const corsOptions = {
   exposedHeaders: "**",
 };
 
+const port = process.env.PORT || 3001;
+
 app.use(cors(corsOptions));
 
 app.get("/download", async (req, res, next) => {
@@ -44,6 +46,6 @@ app.get("/download", async (req, res, next) => {
   }
 });
 
-app.listen(5000, () => {
-  console.log("Server rodando na porta 5000");
+app.listen(port, () => {
+  console.log(`Server rodando na porta ${port}`);
 });
