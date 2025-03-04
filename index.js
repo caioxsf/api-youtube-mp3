@@ -4,7 +4,7 @@ const ytdl = require("@distube/ytdl-core");
 const cors = require("cors");
 
 const corsOptions = {
-  origin: "http://localhost:3000", 
+  origin: "https://front-end-api-mp3.vercel.app", 
   credentials: true,
   optionSuccessStatus: 200,
   exposedHeaders: "**",
